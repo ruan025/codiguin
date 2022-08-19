@@ -1,0 +1,47 @@
+p {
+    color: white;
+    background-color: blue;
+    max-width: 50%;
+    min-width: 25%;
+    min-height: 60px;
+    text-align: center;
+}
+
+a:hover {
+    color: hotpink;
+    font-size: 30px;
+    font-family: "Verdana";
+}
+
+p:active {
+    color: limegreen;
+}
+
+a:visited {
+    color: green;
+}
+
+tr:nth-child(even) {
+    background-color: yellow;
+}
+
+tr:nth-child(odd) {
+    background-color: orange;
+}
+
+.tdMargin {
+    margin-top: 100px;
+}
+
+.tdPading {
+    padding-top: 100px;
+}
+
+input:focus {
+    background-color: green;
+    color: yellow;
+}
+
+.formulario {
+    display: block;
+}
